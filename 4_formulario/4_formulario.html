@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+    <title>Formulario</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <h1>Formularios</h1>
+    <form action="mailto:agm890@educa.madrid.org?
+    subject=tarea_de_marcas" method="post" enctype="text/plain">
+    <fieldset>
+        <legend><h2>Datos Personales</h2></legend>
+
+        <label>Nombre: </label>
+        <br><input type="text" name="nombre" maxlength="20" size="20" required>
+
+        <br><br><label>Edad: </label>
+        <br><input type="number" name="Edad" maxlength="3" size="3" required>
+
+        <br><br><label>Email: </label>
+        <br><input type="email"  name="Email" required>
+        
+        <br><br><label>Curso:</label>
+        <br><select name="Curso">
+            <option>HTML Basico</option>
+            <option>Python Basico</option>
+            <option>CSS Basico</option>
+        </select>
+
+        <br><br><label>Comentarios:</label>
+        <br><textarea name="Comentarios" rows="4" cols="40" maxlength="200"></textarea>
+        <br><input type="submit" value="Enviar">
+
+    </fieldset>
+    
+    </form>
+    <br><a href="../index.html">Volver al index</a>
+</body>
